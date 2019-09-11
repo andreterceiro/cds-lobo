@@ -1,0 +1,88 @@
+[Root]
+Most Recent Package=RicardoLoboListaGeneratorTabajara
+
+
+[Package|RicardoLoboListaGeneratorTabajara|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\WINDOWS\Desktop\Package
+
+[Package|RicardoLoboListaGeneratorTabajara|Configure DAO ISAMs]
+Applicable=No
+
+[Package|RicardoLoboListaGeneratorTabajara|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|RicardoLoboListaGeneratorTabajara|Files Found]
+
+[Package|RicardoLoboListaGeneratorTabajara|Files Released]
+
+[Package|RicardoLoboListaGeneratorTabajara|Missing Dependency Information]
+
+[Package|RicardoLoboListaGeneratorTabajara|Out-of-Date Dependency Information]
+
+[Package|RicardoLoboListaGeneratorTabajara|Files Added]
+
+[Package|RicardoLoboListaGeneratorTabajara|Files Removed]
+
+[Package|RicardoLoboListaGeneratorTabajara|Files In Project]
+C:\WINDOWS\Desktop\RicardoLoboListaGeneratorTabajara.exe=Yes
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|RicardoLoboListaGeneratorTabajara|Configure Registry Files]
+Applicable=No
+
+[Package|RicardoLoboListaGeneratorTabajara|Configure Remote Servers]
+Applicable=No
+
+[Package|RicardoLoboListaGeneratorTabajara|Install Locations]
+C:\WINDOWS\Desktop\RicardoLoboListaGeneratorTabajara.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|RicardoLoboListaGeneratorTabajara|Configure Shared Files]
+Applicable=Yes
+C:\WINDOWS\Desktop\RicardoLoboListaGeneratorTabajara.exe=No
+
+[Package|RicardoLoboListaGeneratorTabajara|Distribution]
+Type=single
+Size=
+Title=RicardoLoboListaGeneratorTabajara
+
+[Package|RicardoLoboListaGeneratorTabajara|IconGroups]
+Group0=RicardoLoboListaGeneratorTabajara
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|RicardoLoboListaGeneratorTabajara|RicardoLoboListaGeneratorTabajara]
+Icon1=RicardoLoboListaGeneratorTabajara.exe
+Title1=RicardoLoboListaGeneratorTabajara
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|RicardoLoboListaGeneratorTabajara|Package]
+PackageFolder=C:\WINDOWS\Desktop\Package
+ProjectFolder=C:\WINDOWS\Desktop
+ServerSideCab=
+File1=C:\WINDOWS\Desktop\Package\setup.exe
+File2=C:\WINDOWS\Desktop\Package\Setup.Lst
+File3=C:\WINDOWS\Desktop\Package\RicardoLoboListaGeneratorTabajara.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
